@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Mundo Invertido | Semana Front-end</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css"/>
 </head>
-<body>
-  <header>
+<body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
+  <header aria-label="Cabeçalho da página.">
     <audio id="music" autoplay>
-      <source src="assets/musics/normal-world.mpeg"/>
+      <source src="assets/musics/normal-world.mpeg" aria-details="Audio do site"/>
     </audio>
 
     <div class="header-content">
-      <img class="invert-element" src="assets/images/banner/logo.svg" alt="Imagem principal"/>
+      <img class="invert-element" src="assets/images/banner/logo.svg" alt="Imagem principal Mundo Invertido. Semana Frontend DIO."/>
       <p class="invert-element" role="text">
         Uma jornada para quem não tem medo do desconhecido. O caminho para o
         Mundo Invertido é incerto, repleto de obstáculos perigosos. Porém, a
@@ -28,6 +30,8 @@
   </header>
 
   <main>
+    <div id="bottom-characters" class="world-characters"></div>
+
     <section id="section-inverted-world" class="container">
       <div class="section-text">
         <h1>O mundo invertido</h1>
@@ -38,6 +42,7 @@
           tudo isso para o nosso mundo.
         </p>
       </div>
+      
       <img
         class="invert-element"
         src="assets/images/content/inverted-world.png"
@@ -57,7 +62,7 @@
           allowfullscreen
         ></iframe>
       </div>
-      <div class="section-text">
+      <div class="section-texts">
         <h2>Stranger Things Vol. 4</h2>
         <p role="text">
           Mais experientes, os heróis de Stranger Things também precisam
